@@ -14,10 +14,10 @@
     width: 100px;
     height: 100px;
     background: red;
-    transition: transform 2s;
+    transition: width 4s;
 }
 .ex-2-square:active {
-    transform: scale(7,4);
+    width: 100%;
 }
 
 /* Esercizio 3 */
@@ -130,7 +130,7 @@
     0%{
         transform: rotate(0deg);
     }
-    50%{
+    90%{
         transform: rotate(270deg);
     }
     100%{
@@ -171,11 +171,11 @@
 }
 
 /* Esercizio 12 */
-.ex-12-top-white{
+.ex-12-button:hover .ex-12-top-white{
     animation: top-white-12 2s infinite;
 }
 
-.ex-12-bottom-white{
+.ex-12-button:hover .ex-12-bottom-white{
     animation: bottom-white-12 2s infinite;
 }
 
@@ -200,11 +200,11 @@
 }
 
 /* Esercizio 13 */
-.ex-13-top-white {
+.ex-13-button:hover .ex-13-top-white {
     animation: white-top-13 4s infinite linear;
 }
 
-.ex-13-bottom-white{
+.ex-13-button:hover .ex-13-bottom-white{
     animation: white-bottom-13 4s infinite linear;
 }
 
@@ -273,5 +273,4 @@
         right: 20%;
         bottom: -10px;
     } 
-    
 }
