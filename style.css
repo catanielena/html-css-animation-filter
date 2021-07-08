@@ -198,11 +198,11 @@
 
 /* Esercizio 13 */
 .ex-13-top-white {
-    animation: white-top-13 2s infinite linear;
+    animation: white-top-13 4s infinite linear;
 }
 
 .ex-13-bottom-white{
-    animation: white-bottom-13 2s infinite linear;
+    animation: white-bottom-13 4s infinite linear;
 }
 
 @keyframes white-top-13 {
@@ -211,23 +211,23 @@
         top: -10px;
     }
 
-    28%{
-        left: 150px;
+    36%{
+        left: 143px;
         top: -10px;
     }
 
-    42%{
-        left: 150px;
+    48%{
+        left: 143px;
         top: 60px;
 
     }
 
-    70%{
+    84%{
         left: -10px;
         top: 60px;
     }
 
-    90%{
+    96%{
         left: -10px;
         top: -10px;
     }
@@ -245,29 +245,29 @@
         right: 20%;
     }
 
-    28%{
+    36%{
         bottom: -10px;
-        right: 150px;
+        right: 143px;
     }
  
-    42%{
-        right: 150px;
-        bottom: 60px;
+    48%{
+        right: 143px;
+        bottom: 47px;
 
     }
 
-    70%{
+    84%{
         right: -10px;
-        bottom: 60px;
+        bottom: 47px;
     }
 
-    90%{
+    94%{
         right: -10px;
         bottom: -10px;
     }
 
     100%{
-        right: 10%;
+        right: 20%;
         bottom: -10px;
     } 
     
